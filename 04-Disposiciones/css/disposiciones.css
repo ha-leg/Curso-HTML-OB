@@ -1,0 +1,22 @@
+.div1,
+.div2 {
+  background-color: rgba(255, 0, 0, 0.615);
+  /* por defecto div display:block */
+}
+
+.span1 {
+  background-color: aquamarine;
+  /* height: 500px; display: inline-block */
+  /* por defecto SPAN display: in line */
+  float: right;
+}
+
+.span2 {
+  background-color: aquamarine;
+  float: left;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}

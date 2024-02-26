@@ -1,0 +1,24 @@
+/* (1, 0, 0) */
+/* (0, 1, 0) */
+/* (0, 0, 1) */
+/* (0, 0, 0) */ /* poniéndote encima te indica la especifidad que tiene */
+
+#h1-id {
+    color: darksalmon;
+} /* Esto es  la especificidad, id mayor especifidad que la clase, y la clase mayor que la etiqueta, y son sumatorios */
+
+.h1-clase {
+    color: yellow;
+} 
+
+h1 {
+    color: blue !important; /* "!important" es el máximo nivel de especifidad, aunque es mejor intentar evitarlo! */
+}
+
+/* h1 {
+    color: green;
+}  siempre se aplica el último */
+
+p {
+    color:red; 
+}

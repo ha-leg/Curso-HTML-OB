@@ -1,0 +1,44 @@
+.contenedor-hidden {
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.contenedor-scroll {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    overflow: scroll;
+}
+
+.contenedor-visible {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    overflow: visible;
+}
+
+.contenedor-auto {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    overflow: auto; /*optimiza las barras y las pone solo donde deba*/
+}
+
+.contenedor-scroll-x {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    overflow-y: scroll;
+    overflow-x: hidden; /* elegir que barra mostrar y ocultar */
+}

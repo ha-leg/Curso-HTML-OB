@@ -1,0 +1,49 @@
+.colores {
+    color: orangered;
+}
+
+
+.color-hexadecimal {
+    color: #0B4F6C; 
+}
+
+.color-rgb {
+    color: rgb(200, 0, 187);
+}
+
+.color-rgba {
+    color: rgba(10, 10, 10, 0.85);
+}
+
+/* Fondos */
+.fondo {
+   /* background-color: antiquewhite;*/
+    background-image: url(https://unbounce.com/photos/Gradient-Background.png);
+    background-position: right top;
+}
+
+.fondo-interno {
+     background-image: url(Images/fondo.jpg);
+     background-position: left bottom;
+ }
+
+ /* Tamaños */
+ .ancho {
+    background-color: #43809a;
+    width: 100px;
+ }
+
+ .alto {
+    background-color: aliceblue;
+    height: 200px;
+    width: 300px;
+ }
+
+ .tarjeta {
+    border-style: solid;
+    border-color: turquoise;
+    border-width: 1px;
+    /* border-top: none; */
+    padding: 10px 20px;
+    margin: 10px 20px;
+ }

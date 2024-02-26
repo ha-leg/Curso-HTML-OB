@@ -1,0 +1,39 @@
+h1 {
+    color: red;
+font-size: 4rem;
+}
+
+p {
+    color: black;
+    font-size: 4rem;
+}
+
+/* @media (max-width: 576px) { /* Hacer referencia a un dispositivo que yo elija 
+    h1 {
+        color: blue;
+    }
+} */
+
+@media (min-width: 576px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media (min-width: 995px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media (orientation: landscape), (min-height: 400px) { /* si la anchura supera la altura es "landscape" */
+    p {
+        color: brown;
+    }
+} /* se sobreescribe, el que va por encima tiene preferencia */
+
+@media (min-height: 300px) {
+    p {
+        color: cyan;
+    }
+}

@@ -1,0 +1,11 @@
+.p-contenedor {
+    color: green;
+}
+
+section.main .contenedor p { /*ir diciéndole donde o a qué tiene que afectar. Esto se conoce como anidación de selectores */
+    color: green;
+}
+
+.contenedor #boton-contenedor {
+    background-color: yellow;
+}

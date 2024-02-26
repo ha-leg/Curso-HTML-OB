@@ -1,0 +1,19 @@
+:root { /*aprender a usar esta pseudoclase que es root */
+--color-principal: rgb(187, 0, 255);
+--ancho-principal: 250px;
+/*cambio el color principal y cambia en todas las variables*/
+}
+
+.titulo {
+    color: var(--color-principal);
+}
+
+.footer {
+    color: var(--color-principal);
+}
+
+.contenedor {
+    background-color: antiquewhite;
+    padding: 1rem;
+    max-width: var(--ancho-principal);
+}

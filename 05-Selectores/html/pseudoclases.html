@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pseudo-Clases</title>
+    <!-- https://www.w3schools.com/css/css_pseudo_classes.asp (todas las pseudoclases que hay)--> 
+    <style>
+      /* Recuerda que aquí puedes crear el css y los estilos,
+    solo que usábamos otro archivo css para dejar este limpio */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .hover {
+        width: 300px;
+        height: 100px;
+        background-color: bisque;
+      }
+
+      .hover:hover {
+        /* Se activa cuando el reatón pasa por encima */
+        background-color: burlywood;
+      }
+
+      .listado {
+        padding: 15px;
+        background-color: aquamarine;
+      }
+
+      .listado p:first-child {
+        /*afectar a algo en concreto */
+        color: white;
+      }
+
+      a:link {
+        /*link no visitado todavia */
+        color: deeppink;
+      }
+
+      a:visited {
+        color: crimson;
+      }
+
+      a:active {
+        color: greenyellow;
+      }
+      /*respetar orden para no pisarse */
+    </style>
+  </head>
+  <body>
+    <div class="hover">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nulla
+        voluptate maxime, dolorum labore possimus incidunt quia totam voluptas
+        officiis a exercitationem ut perspiciatis beatae provident cumque
+      </p>
+    </div>
+    <div class="listado">
+      <p>Párrafo 1</p>
+      <p>Párrafo 2</p>
+      <p>Párrafo 3</p>
+    </div>
+    <div class="enlaces">
+      <a href="http://google.com" target="_blank">Enlace a Google</a>
+      <a href="http://google.com" target="_blank">Enlace a Marca</a>
+    </div>
+  </body>
+</html>
